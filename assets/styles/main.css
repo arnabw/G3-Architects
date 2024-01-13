@@ -295,3 +295,54 @@
     font-size: 0.9375rem;
     font-weight: 600;
 }
+
+/* Footer Section  */
+#foot{
+    padding: 7.5rem 0;
+}
+
+#foot .foot-above-part{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot .foot-above-part .foot-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#foot .foot-above-part .foot-content .foot-description{
+    width: 100%;
+    max-width: 25.40625rem;
+    margin-top: 1.1rem;
+}
+
+#foot .foot-above-part .foot-sponsor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#foot .foot-above-part .foot-sponsor .img-1{
+    width: 100%;
+    max-width: 6.95rem;
+}
+#foot .foot-above-part .foot-sponsor .img-2{
+    width: 100%;
+    max-width: 6.91rem;
+}
+#foot .foot-above-part .foot-sponsor .img-2{
+    width: 100%;
+    max-width: 6.39rem;
+}
+#foot .foot-above-part .foot-sponsor .img-4{
+    width: 100%;
+    max-width: 6.36rem;
+}
+#foot .foot-above-part .foot-sponsor .img-5{
+    width: 100%;
+    max-width: 7.57rem;
+}
