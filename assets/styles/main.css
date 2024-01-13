@@ -10,6 +10,12 @@
     font-style: normal;
     line-height: normal;
 }
+body{
+    width: 100%;
+    max-width: 1920px;
+    border: 1px solid #131313;
+    margin: 0 auto;
+}
 
 .container {
     /* 1920- 480 = 1440px, 1440 / 1920 = 0.75 */
@@ -41,6 +47,7 @@
     font-weight: 600;
     border: none;
     padding: 0.9375rem 1.171875rem;
+    cursor: pointer;
 }
 
 /* Header Section */
@@ -336,7 +343,7 @@
     max-width: 6.91rem;
 }
 
-#foot .foot-above-part .foot-sponsor .img-2 {
+#foot .foot-above-part .foot-sponsor .img-3 {
     width: 100%;
     max-width: 6.39rem;
 }
