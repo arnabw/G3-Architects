@@ -136,26 +136,106 @@
     border-radius: 0.375rem;
 }
 
-#features .features-container .features-content{
+#features .features-container .features-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#features .features-container .features-content .feature-title{
+#features .features-container .features-content .feature-title {
     width: 100%;
     max-width: 21.9375rem;
 }
-#features .features-container .features-content .feature-title .gray-color{
+
+#features .features-container .features-content .feature-title .gray-color {
     color: #727272;
     font-weight: 500;
 }
-#features .features-container .features-content .feature-title .primary-color{
+
+#features .features-container .features-content .feature-title .primary-color {
     color: #FF900E;
 }
 
-#features .features-container .features-content .feature-description{
+#features .features-container .features-content .feature-description {
     width: 100%;
     max-width: 25.171875rem;
     margin: 1rem 0;
+}
+
+/* Features Second Section  */
+#features .features-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.984375rem;
+}
+
+#features .features-container-2 .features-content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-content-2 .feature-2-title {
+    width: 100%;
+    max-width: 21.9375rem;
+    border-left: 0.234375rem solid #FF900E;
+    padding-left: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.features-content-2 .feature-2-description {
+    width: 100%;
+    max-width: 27.46875rem;
+}
+
+.features-content-2 .features-highlighted {
+    margin-top: 1.40625rem;
+}
+
+.features-content-2 .features-highlighted .features-box {
+    padding: 1.40625rem;
+    border-radius: 0.375rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 0.93375rem;
+}
+
+.features-content-2 .features-highlighted .features-box .box-title {
+    color: #131313;
+    font-size: 0.9375rem;
+    font-weight: 600;
+}
+
+.features-content-2 .features-highlighted .features-box .box-description {
+    width: 100%;
+    max-width: 24.09375rem;
+}
+
+#features .features-container-2 .features-img-2 img {
+    width: 100%;
+    max-width: 33.1875rem;
+    object-fit: cover;
+    border-radius: 0.375rem;
+}
+
+#features .features-container-2 .features-img-2 .TenYears {
+    width: 100%;
+    max-width: 16.03125rem;
+    padding: 1.96875rem;
+    border-radius: 0.375rem;
+    text-align: center;
+    background: #FF900E;
+    color: #FFF;
+    position: relative;
+    bottom: 3.61rem;
+    right: 4.3125rem;
+}
+#features .features-container-2 .features-img-2 .TenYears h2{
+font-size: 3.046874rem;
+font-weight: 700;
+line-height: 2.28125rem;
+}
+#features .features-container-2 .features-img-2 .TenYears h2 span{
+font-size: 1.171875rem;
+font-weight: 500;
+line-height: 1.668rem;
 }
